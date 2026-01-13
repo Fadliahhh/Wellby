@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "938319153925",
+    "project_id": "wellby-digital",
+    "storage_bucket": "wellby-digital.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938319153925:android:b8b097994e9d87e17ac56c",
+        "android_client_info": {
+          "package_name": "com.example.wellby"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfDb-SoEgJikZJ8mYPBqcEtjIbZZCxs2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938319153925:android:adc9092ef9fb32f47ac56c",
+        "android_client_info": {
+          "package_name": "com.example.wellby_baru"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfDb-SoEgJikZJ8mYPBqcEtjIbZZCxs2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

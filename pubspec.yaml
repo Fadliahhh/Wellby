@@ -1,0 +1,64 @@
+name: wellby_baru
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.1.1
+  firebase_auth: ^5.1.1
+  cloud_firestore: ^5.0.2
+  # Ambil Data (Android)
+  app_usage: ^4.0.0
+  android_intent_plus: ^5.0.2
+  # AI (Otak)
+  google_generative_ai: ^0.4.3
+  intl: ^0.19.0
+  flutter_local_notifications: ^17.2.1+1
+  workmanager: ^0.9.0+3  
+  permission_handler: ^11.3.0 
+  kmeans: ^1.0.0
+  shared_preferences: ^2.2.3
+  google_fonts: ^6.2.1
+  fl_chart: ^0.68.0
+  flutter_native_splash: ^2.4.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/splash.png
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+  adaptive_icon_foreground: "assets/logo.png"
+
+
+flutter_native_splash:
+  color: "#FFFFFF"        # Background putih bersih
+  image: assets/splash.png  # Path ke logo kamu
+  branding: null
+  android_12:
+    image: assets/splash.png
+    color: "#FFFFFF"
+    icon_background_color: "#FFFFFF"
+  fullscreen: true
+
+
