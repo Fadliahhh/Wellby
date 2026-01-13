@@ -1,6 +1,6 @@
 # Wellby 🌱
 
-Wellby adalah aplikasi yang berfokus pada kesejahteraan dan kebiasaan positif.
+Wellby is an app focused on well-being and positive habits. It uses the power of AI to explain users' digital habits.
 
 ## Tech Stack
 - Flutter
